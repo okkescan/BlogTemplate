@@ -405,15 +405,19 @@ header .menu {
 
 
 .name {
-    display: none;
-    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+
 }
 
 .name h5 {
     text-align: center;
     font-family: "Playwrite DK Loopet", cursive;
     font-size: 2rem;
-    color: #000;
+    color: #574964;
 }
 
 .subscribe {
